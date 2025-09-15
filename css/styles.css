@@ -1,0 +1,68 @@
+* {
+  font-family: Monospace, sans-serif;
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
+
+header {
+  color: white;
+}
+
+header ul {
+  margin-right: 10%;
+}
+
+header li,
+.hard-skills li {
+  display: inline;
+  list-style-type: none;
+}
+
+header li {
+  padding-left: 50px;
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero img {
+  float: right;
+}
+
+.hero h1,
+p {
+  display: block;
+}
+
+.hero {
+  margin-bottom: 500px;
+}
+
+.hero a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.hero .resume-button {
+  border: 2px solid white;
+}
+
+.hero .request-button {
+  background-color: white;
+  color: rgb(7, 7, 7);
+}
+.hard-skills,
+.hard-skills li {
+  background-color: rgb(10, 10, 10);
+  padding: 30px;
+  text-align: center;
+}
+
+.hard-skills li {
+  color: rgb(168, 168, 168);
+  padding: 10px;
+  margin-left: 50px;
+}
