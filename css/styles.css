@@ -29,6 +29,7 @@ header a {
 }
 
 .hero img {
+  border-radius: 50%;
   float: right;
 }
 
@@ -38,7 +39,10 @@ p {
 }
 
 .hero {
-  margin-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 100px
+  /* text-align: center; */
 }
 
 .hero a {
@@ -62,6 +66,7 @@ p {
 }
 
 .hard-skills li {
+  display: inline-block;
   color: rgb(168, 168, 168);
   padding: 10px;
   margin-left: 50px;
