@@ -8,12 +8,15 @@ header {
   color: white;
 }
 
-header ul {
-  margin-right: 10%;
+nav {
+  margin-top: 15px;
+  margin-right: 50px;
 }
 
 header li,
-.hard-skills li {
+.hard-skills li,
+header h2,
+header ul {
   display: inline;
   list-style-type: none;
 }
@@ -25,10 +28,11 @@ header li {
 
 header a {
   text-decoration: none;
-  color: white;
 }
 
 .hero img {
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   float: right;
 }
@@ -41,16 +45,14 @@ p {
 .hero {
   display: flex;
   justify-content: center;
-  margin: 100px
-  /* text-align: center; */
+  margin: 100px;
 }
 
 .hero a {
+  display: inline-block;
+  margin-top: 10px;
   padding: 10px;
   text-decoration: none;
-}
-
-.hero .resume-button {
   border: 2px solid white;
 }
 
@@ -70,4 +72,12 @@ p {
   color: rgb(168, 168, 168);
   padding: 10px;
   margin-left: 50px;
+}
+
+.bottom-site {
+  text-align: center;
+}
+
+.bottom-site ul {
+  list-style-type: none;
 }
